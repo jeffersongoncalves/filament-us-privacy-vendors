@@ -1,3 +1,5 @@
 <?php
 
-uses(JeffersonGoncalves\Filament\UsPrivacyVendors\Tests\TestCase::class)->in('Feature');
+use JeffersonGoncalves\Filament\UsPrivacyVendors\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature');
